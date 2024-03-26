@@ -150,10 +150,10 @@ public class Maze {
         if (row < 0 || col < 0) {
             return false;
         }
-        else if (mazeGrid[row][col].isWall()) {
+        if (mazeGrid[row][col].isWall()) {
             return false;
         }
-        else if (mazeGrid[row][col].isExplored()) {
+        if (mazeGrid[row][col].isExplored()) {
             return false;
         }
         return true;
