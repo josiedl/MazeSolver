@@ -4,6 +4,7 @@
  * @version 03/29/2024
  */
 
+// Import java classes
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
